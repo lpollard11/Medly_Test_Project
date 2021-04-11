@@ -24,6 +24,8 @@
 		59D338F12623A0480060A2A2 /* URLRequestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D338F02623A0480060A2A2 /* URLRequestProvider.swift */; };
 		59D338F62623A0EE0060A2A2 /* NetworkRequesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D338F52623A0EE0060A2A2 /* NetworkRequesting.swift */; };
 		59D338FB2623A0FF0060A2A2 /* NetworkRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D338FA2623A0FF0060A2A2 /* NetworkRequester.swift */; };
+		59D339082623A3F90060A2A2 /* CountriesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D339072623A3F90060A2A2 /* CountriesService.swift */; };
+		59D3390D2623A4230060A2A2 /* CountriesServiceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D3390C2623A4230060A2A2 /* CountriesServiceAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		59D338F02623A0480060A2A2 /* URLRequestProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestProvider.swift; sourceTree = "<group>"; };
 		59D338F52623A0EE0060A2A2 /* NetworkRequesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequesting.swift; sourceTree = "<group>"; };
 		59D338FA2623A0FF0060A2A2 /* NetworkRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequester.swift; sourceTree = "<group>"; };
+		59D339072623A3F90060A2A2 /* CountriesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesService.swift; sourceTree = "<group>"; };
+		59D3390C2623A4230060A2A2 /* CountriesServiceAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesServiceAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +227,8 @@
 		59D338D126239F1A0060A2A2 /* Countries */ = {
 			isa = PBXGroup;
 			children = (
+				59D339072623A3F90060A2A2 /* CountriesService.swift */,
+				59D3390C2623A4230060A2A2 /* CountriesServiceAPI.swift */,
 			);
 			path = Countries;
 			sourceTree = "<group>";
@@ -358,7 +364,9 @@
 			files = (
 				59D338DD26239F830060A2A2 /* HTTPProvider.swift in Sources */,
 				59D338CA26239D400060A2A2 /* RestEndpoint.swift in Sources */,
+				59D339082623A3F90060A2A2 /* CountriesService.swift in Sources */,
 				59D338E226239FE70060A2A2 /* ModelProviding.swift in Sources */,
+				59D3390D2623A4230060A2A2 /* CountriesServiceAPI.swift in Sources */,
 				59D33870262393AB0060A2A2 /* AppDelegate.swift in Sources */,
 				59D338F12623A0480060A2A2 /* URLRequestProvider.swift in Sources */,
 				59D338B72623986B0060A2A2 /* Country.swift in Sources */,
