@@ -10,7 +10,6 @@
 		59D33870262393AB0060A2A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D3386F262393AB0060A2A2 /* AppDelegate.swift */; };
 		59D33879262393AD0060A2A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59D33878262393AD0060A2A2 /* Assets.xcassets */; };
 		59D3387C262393AD0060A2A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59D3387A262393AD0060A2A2 /* LaunchScreen.storyboard */; };
-		59D33887262393AD0060A2A2 /* Medly_Test_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D33886262393AD0060A2A2 /* Medly_Test_ProjectTests.swift */; };
 		59D33892262393AD0060A2A2 /* Medly_Test_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D33891262393AD0060A2A2 /* Medly_Test_ProjectUITests.swift */; };
 		59D338B72623986B0060A2A2 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D338B62623986B0060A2A2 /* Country.swift */; };
 		59D338CA26239D400060A2A2 /* RestEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D338C926239D400060A2A2 /* RestEndpoint.swift */; };
@@ -31,6 +30,9 @@
 		59D3392A2623B1F40060A2A2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D339292623B1F40060A2A2 /* Extensions.swift */; };
 		59D339322623B5D00060A2A2 /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D339312623B5D00060A2A2 /* CountriesViewController.swift */; };
 		59D339372623E4B70060A2A2 /* CountriesWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D339362623E4B70060A2A2 /* CountriesWireframe.swift */; };
+		59D339422623ECCA0060A2A2 /* CountryCellViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D339412623ECCA0060A2A2 /* CountryCellViewModelTests.swift */; };
+		59D339482623EE1B0060A2A2 /* CountriesServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D339472623EE1B0060A2A2 /* CountriesServiceMock.swift */; };
+		59D339502623EE7B0060A2A2 /* CountriesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D3394F2623EE7B0060A2A2 /* CountriesViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +59,6 @@
 		59D3387B262393AD0060A2A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59D3387D262393AD0060A2A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59D33882262393AD0060A2A2 /* Medly_Test_ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Medly_Test_ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		59D33886262393AD0060A2A2 /* Medly_Test_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medly_Test_ProjectTests.swift; sourceTree = "<group>"; };
 		59D33888262393AD0060A2A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59D3388D262393AD0060A2A2 /* Medly_Test_ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Medly_Test_ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59D33891262393AD0060A2A2 /* Medly_Test_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medly_Test_ProjectUITests.swift; sourceTree = "<group>"; };
@@ -81,6 +82,9 @@
 		59D339292623B1F40060A2A2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		59D339312623B5D00060A2A2 /* CountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
 		59D339362623E4B70060A2A2 /* CountriesWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesWireframe.swift; sourceTree = "<group>"; };
+		59D339412623ECCA0060A2A2 /* CountryCellViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCellViewModelTests.swift; sourceTree = "<group>"; };
+		59D339472623EE1B0060A2A2 /* CountriesServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesServiceMock.swift; sourceTree = "<group>"; };
+		59D3394F2623EE7B0060A2A2 /* CountriesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,8 +150,10 @@
 		59D33885262393AD0060A2A2 /* Medly_Test_ProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				59D33886262393AD0060A2A2 /* Medly_Test_ProjectTests.swift */,
 				59D33888262393AD0060A2A2 /* Info.plist */,
+				59D3394F2623EE7B0060A2A2 /* CountriesViewModelTests.swift */,
+				59D339412623ECCA0060A2A2 /* CountryCellViewModelTests.swift */,
+				59D339462623EE0C0060A2A2 /* Mocks */,
 			);
 			path = Medly_Test_ProjectTests;
 			sourceTree = "<group>";
@@ -272,6 +278,14 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		59D339462623EE0C0060A2A2 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				59D339472623EE1B0060A2A2 /* CountriesServiceMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -342,6 +356,7 @@
 					};
 					59D33881262393AD0060A2A2 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 						TestTargetID = 59D3386B262393AB0060A2A2;
 					};
 					59D3388C262393AD0060A2A2 = {
@@ -428,7 +443,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59D33887262393AD0060A2A2 /* Medly_Test_ProjectTests.swift in Sources */,
+				59D339502623EE7B0060A2A2 /* CountriesViewModelTests.swift in Sources */,
+				59D339482623EE1B0060A2A2 /* CountriesServiceMock.swift in Sources */,
+				59D339422623ECCA0060A2A2 /* CountryCellViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,6 +643,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q89MCEGMES;
 				INFOPLIST_FILE = Medly_Test_ProjectTests/Info.plist;
@@ -637,6 +655,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lee.pollard.Medly-Test-ProjectTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medly_Test_Project.app/Medly_Test_Project";
@@ -648,6 +667,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q89MCEGMES;
 				INFOPLIST_FILE = Medly_Test_ProjectTests/Info.plist;

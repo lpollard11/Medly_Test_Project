@@ -34,6 +34,12 @@ final class CountriesViewController: UIViewController {
                 self?.tableView.reloadData()
             }
         }
+        
+        viewModel.showError = { [weak self] error in
+            DispatchQueue.main.async {
+                self?.showError(error: error)
+            }
+        }
     }
     
     private func setupUI() {
@@ -53,6 +59,14 @@ final class CountriesViewController: UIViewController {
             $0.bottomAnchor.constraint(equalTo: view.bottomAnchor),
             $0.trailingAnchor.constraint(equalTo: view.trailingAnchor)
         ]}
+    }
+    
+    private func showError(error: Error) {
+        let alert = UIAlertController(title: "Oops!", message: error.localizedDescription, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Try again", style: .default, handler: { [weak self] _ in
+            self?.viewModel.loadData()
+        }))
+        present(alert, animated: true, completion: nil)
     }
 }
 
