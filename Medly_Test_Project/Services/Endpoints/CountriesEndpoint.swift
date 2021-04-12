@@ -8,6 +8,10 @@
 import Foundation
 
 struct CountriesEndpoint: RestEndpoint {
+    private enum Constants {
+        static let baseURL = "https://restcountries.eu/rest/v2/all"
+    }
+    
     let path: String = Constants.baseURL
     let method: RestMethod = .GET
 }
